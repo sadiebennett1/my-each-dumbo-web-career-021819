@@ -1,9 +1,9 @@
 def my_each(arr) # put argument(s) here
   # code here
-  a = 0
+  i = 0
   while a < arr.length
-    i = arr[a]
-    yield 
+    yield(arr[i])
     i += 1
+    
   end
 end
